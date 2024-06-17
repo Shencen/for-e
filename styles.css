@@ -7,13 +7,13 @@ body {
 }
 
 .navbar {
-    background-color: #a8e6cf; /* Pastel green */
+    background-color: #81c784; /* Softer green */
     padding: 1rem;
     text-align: center;
 }
 
 .navbar a {
-    color: #ff8a65; /* Pastel orange */
+    color: #388e3c; /* Darker green */
     text-decoration: none;
     margin: 0 1rem;
     font-weight: bold;
@@ -29,11 +29,11 @@ body {
 }
 
 h1, h2 {
-    color: #ff8a65; /* Pastel orange for headers */
+    color: #ffb74d; /* Softer orange for headers */
 }
 
 .button {
-    background-color: #a8e6cf; /* Pastel green */
+    background-color: #81c784; /* Softer green */
     color: #ffffff;
     padding: 0.5rem 1rem;
     border: none;
@@ -43,9 +43,29 @@ h1, h2 {
 }
 
 .button:hover {
-    background-color: #81c784; /* Darker pastel green on hover */
+    background-color: #66bb6a; /* Slightly darker green on hover */
 }
 
 .favorite {
-    color: #b3e5fc; /* Pastel blue */
+    color: #1976d2; /* Darker blue */
+}
+
+.image-container {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.image {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.caption {
+    font-size: 2rem;
+    margin-top: 0.5rem;
+    text-align: center;
+}
+
+.caption span {
+    transition: color 0.5s ease;
 }
